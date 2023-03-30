@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="@dimen/_10sdp"
+    app:cardCornerRadius="@dimen/_8sdp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hủy đơn hàng"
+        android:textSize="@dimen/_18sdp"
+        android:textColor="@color/white"
+        android:background="@color/colorAccent"
+        android:padding="@dimen/_8sdp"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginVertical="@dimen/_20sdp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bạn có chắc chắn muốn \n hủy đơn mua này  không ?"
+            android:textSize="@dimen/_14sdp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:orientation="horizontal"
+        >
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="@dimen/_4sdp"
+            android:layout_marginHorizontal="@dimen/_4sdp"
+            >
+
+            <Button
+                android:id="@+id/dialogHuy"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="match_parent"
+                android:background="@color/black"
+                android:inputType="text"
+                android:text="Hủy"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_16ssp" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="@dimen/_4sdp"
+            android:layout_marginHorizontal="@dimen/_4sdp"
+            >
+            <Button
+                android:id="@+id/dialogdongy"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="match_parent"
+                android:text="Đồng ý"
+                android:textSize="@dimen/_16ssp"
+                android:textColor="@color/white"
+                android:background="@color/colorAccent"
+                android:inputType="text"
+                />
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</LinearLayout>
+</androidx.cardview.widget.CardView>

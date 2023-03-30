@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="8dp"
+    app:cardCornerRadius="@dimen/_5sdp"
+    android:layout_margin="@dimen/_2sdp"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:weightSum="10"
+        android:layout_margin="@dimen/_5sdp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/item_sanpham_img"
+            android:src="@drawable/arrow_back_24"
+            android:layout_weight="3"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_100sdp"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/item_sanpham_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tên Sản Phẩm"
+                android:textSize="@dimen/_14ssp"
+                android:textColor="@color/black"
+            />
+            <TextView
+                android:id="@+id/item_sanpham_gia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Giá Sản Phẩm"
+                android:textSize="16sp"
+                android:textColor="#FF0000"
+                />
+            <TextView
+                android:id="@+id/item_sanpham_mota"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mô Tả: "
+                android:textSize="14sp"
+                android:textColor="#A8A8A8"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

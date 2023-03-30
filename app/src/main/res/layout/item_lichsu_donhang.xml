@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="8dp"
+    android:layout_margin="@dimen/_2sdp"
+    app:cardCornerRadius="4dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+     <FrameLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         >
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="vertical"
+             >
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="horizontal"
+                 android:background="#e6e6fa"
+                 >
+                 <TextView
+                     android:id="@+id/iddonhang"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="Đơn hàng: "
+                     android:layout_marginLeft="5dp"
+                     android:padding="5dp"
+                     android:textSize="18sp"
+                     android:textColor="@color/black"
+                     />
+
+                 <TextView
+                     android:id="@+id/txttinhtrang"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_gravity="center"
+                     android:layout_marginLeft="5dp"
+                     android:text="Đơn hàng đang được thực hiện"
+                     android:textSize="@dimen/_9ssp"
+                     android:background="@drawable/background_donhang"
+                     />
+             </LinearLayout>
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="vertical"
+                 android:id="@+id/itemlichsu_admin"
+                 android:layout_marginLeft="@dimen/_5sdp"
+                 >
+                 <TextView
+                     android:id="@+id/titledathang"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="Thông tin người đặt hàng"
+                     android:textColor="@color/black"
+                     android:textSize="@dimen/_12ssp"
+                     />
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="họ và tên:"
+                     android:id="@+id/thongtinUsername"
+                     />
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="Số điện thoại:"
+                     android:id="@+id/thongtinSodienthoai"
+                     />
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="Địa chỉ giao hàng:"
+                     android:id="@+id/diachigiaohang"
+                     />
+                 <TextView
+                     android:id="@+id/titlePhuongthuc"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="Phương thức thanh toán"
+                     android:textColor="@color/black"
+                     android:textSize="@dimen/_12ssp"
+                     />
+
+                 <TextView
+                     android:id="@+id/itemphuongthuc"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="Thanh toán khi nhận hàng"
+                     />
+                 <TextView
+                     android:layout_marginVertical="@dimen/_4ssp"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="Chi tiết đơn hàng"
+                     android:textSize="@dimen/_14ssp"
+                     android:textColor="@color/black"
+                     />
+             </LinearLayout>
+             <View
+                 android:id="@+id/itemViewAdmin"
+                 android:layout_width="match_parent"
+                 android:layout_height="@dimen/_2sdp"
+                 android:background="#E8E8E8"
+                 />
+             <FrameLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 >
+                <LinearLayout
+                    android:id="@+id/Linearlayoutdonhanghuy"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:visibility="gone"
+                    >
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:orientation="vertical"
+                     android:layout_gravity="center"
+                     >
+                     <ImageView
+                         android:layout_width="@dimen/_100sdp"
+                         android:layout_height="@dimen/_100sdp"
+                         android:layout_gravity="center"
+                         android:src="@drawable/huydonhang"
+                         />
+                     <TextView
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:text="Đơn hàng đã Hủy"
+                         android:gravity="center"
+                         android:textSize="@dimen/_14ssp"
+                         android:textColor="@color/red"
+                         android:layout_marginVertical="@dimen/_5sdp"
+                         />
+                 </LinearLayout>
+                </LinearLayout>
+                     <androidx.recyclerview.widget.RecyclerView
+                         android:id="@+id/recyclerview_chitiet"
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:visibility="visible"
+                         />
+             </FrameLayout>
+             <TextView
+                 android:id="@+id/txtTongtienthanhtoan"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="Tong tien don hang"
+                 android:layout_marginLeft="@dimen/_9sdp"
+                 android:textSize="@dimen/_10ssp"
+                 android:textColor="@color/blue"
+                 />
+
+         </LinearLayout>
+     </FrameLayout>
+
+</androidx.cardview.widget.CardView>

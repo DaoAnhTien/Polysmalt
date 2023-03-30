@@ -1,0 +1,84 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.hoangld.merchantDemo"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/lap12580/Documents/NewDocs/DemoZPDK_Android/DemoZPDK-Android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/lap12580/Documents/NewDocs/DemoZPDK_Android/DemoZPDK-Android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/lap12580/Documents/NewDocs/DemoZPDK_Android/DemoZPDK-Android/app/src/main/AndroidManifest.xml:6:5-67
+11-->/Users/lap12580/Documents/NewDocs/DemoZPDK_Android/DemoZPDK-Android/app/src/main/AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/Users/lap12580/Documents/NewDocs/DemoZPDK_Android/DemoZPDK-Android/app/src/main/AndroidManifest.xml:7:5-79
+12-->/Users/lap12580/Documents/NewDocs/DemoZPDK_Android/DemoZPDK-Android/app/src/main/AndroidManifest.xml:7:22-76
+13    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+13-->[:zpdk-release-28052021] /Users/lap12580/Documents/NewDocs/DemoZPDK_Android/DemoZPDK-Android/zpdk-release-28052021/build/.transforms/1b2a00fa8a0972eec45340451493714c/jetified-zpdk-release-28052021/AndroidManifest.xml:11:5-77
+13-->[:zpdk-release-28052021] /Users/lap12580/Documents/NewDocs/DemoZPDK_Android/DemoZPDK-Android/zpdk-release-28052021/build/.transforms/1b2a00fa8a0972eec45340451493714c/jetified-zpdk-release-28052021/AndroidManifest.xml:11:22-74
+14
+15    <application
+15-->/Users/lap12580/Documents/NewDocs/DemoZPDK_Android/DemoZPDK-Android/app/src/main/AndroidManifest.xml:9:5-38:19
+16        android:allowBackup="true"
+16-->/Users/lap12580/Documents/NewDocs/DemoZPDK_Android/DemoZPDK-Android/app/src/main/AndroidManifest.xml:10:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.1.0] /Users/lap12580/.gradle/caches/transforms-2/files-2.1/34b4ab0d8b65ac74ddd00d45b26dd963/core-1.1.0/AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:icon="@mipmap/ic_launcher"
+19-->/Users/lap12580/Documents/NewDocs/DemoZPDK_Android/DemoZPDK-Android/app/src/main/AndroidManifest.xml:11:9-43
+20        android:label="@string/app_name"
+20-->/Users/lap12580/Documents/NewDocs/DemoZPDK_Android/DemoZPDK-Android/app/src/main/AndroidManifest.xml:12:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->/Users/lap12580/Documents/NewDocs/DemoZPDK_Android/DemoZPDK-Android/app/src/main/AndroidManifest.xml:13:9-54
+22        android:supportsRtl="true"
+22-->/Users/lap12580/Documents/NewDocs/DemoZPDK_Android/DemoZPDK-Android/app/src/main/AndroidManifest.xml:14:9-35
+23        android:testOnly="true"
+24        android:theme="@style/AppTheme"
+24-->/Users/lap12580/Documents/NewDocs/DemoZPDK_Android/DemoZPDK-Android/app/src/main/AndroidManifest.xml:15:9-40
+25        android:usesCleartextTraffic="true" >
+25-->/Users/lap12580/Documents/NewDocs/DemoZPDK_Android/DemoZPDK-Android/app/src/main/AndroidManifest.xml:16:9-44
+26        <activity
+26-->/Users/lap12580/Documents/NewDocs/DemoZPDK_Android/DemoZPDK-Android/app/src/main/AndroidManifest.xml:18:9-37:20
+27            android:name="com.zlpdemo.merchantDemo.MainActivity"
+27-->/Users/lap12580/Documents/NewDocs/DemoZPDK_Android/DemoZPDK-Android/app/src/main/AndroidManifest.xml:19:13-65
+28            android:label="Merchant Demo"
+28-->/Users/lap12580/Documents/NewDocs/DemoZPDK_Android/DemoZPDK-Android/app/src/main/AndroidManifest.xml:20:13-42
+29            android:launchMode="singleTask" >
+29-->/Users/lap12580/Documents/NewDocs/DemoZPDK_Android/DemoZPDK-Android/app/src/main/AndroidManifest.xml:21:13-44
+30            <intent-filter>
+30-->/Users/lap12580/Documents/NewDocs/DemoZPDK_Android/DemoZPDK-Android/app/src/main/AndroidManifest.xml:23:13-27:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->/Users/lap12580/Documents/NewDocs/DemoZPDK_Android/DemoZPDK-Android/app/src/main/AndroidManifest.xml:24:17-69
+31-->/Users/lap12580/Documents/NewDocs/DemoZPDK_Android/DemoZPDK-Android/app/src/main/AndroidManifest.xml:24:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->/Users/lap12580/Documents/NewDocs/DemoZPDK_Android/DemoZPDK-Android/app/src/main/AndroidManifest.xml:26:17-77
+33-->/Users/lap12580/Documents/NewDocs/DemoZPDK_Android/DemoZPDK-Android/app/src/main/AndroidManifest.xml:26:27-74
+34            </intent-filter>
+35            <intent-filter>
+35-->/Users/lap12580/Documents/NewDocs/DemoZPDK_Android/DemoZPDK-Android/app/src/main/AndroidManifest.xml:29:13-35:29
+36                <action android:name="android.intent.action.VIEW" />
+36-->/Users/lap12580/Documents/NewDocs/DemoZPDK_Android/DemoZPDK-Android/app/src/main/AndroidManifest.xml:30:17-69
+36-->/Users/lap12580/Documents/NewDocs/DemoZPDK_Android/DemoZPDK-Android/app/src/main/AndroidManifest.xml:30:25-66
+37
+38                <category android:name="android.intent.category.DEFAULT" />
+38-->/Users/lap12580/Documents/NewDocs/DemoZPDK_Android/DemoZPDK-Android/app/src/main/AndroidManifest.xml:31:17-76
+38-->/Users/lap12580/Documents/NewDocs/DemoZPDK_Android/DemoZPDK-Android/app/src/main/AndroidManifest.xml:31:27-73
+39                <category android:name="android.intent.category.BROWSABLE" />
+39-->/Users/lap12580/Documents/NewDocs/DemoZPDK_Android/DemoZPDK-Android/app/src/main/AndroidManifest.xml:32:17-78
+39-->/Users/lap12580/Documents/NewDocs/DemoZPDK_Android/DemoZPDK-Android/app/src/main/AndroidManifest.xml:32:27-75
+40
+41                <data
+41-->/Users/lap12580/Documents/NewDocs/DemoZPDK_Android/DemoZPDK-Android/app/src/main/AndroidManifest.xml:33:17-34:42
+42                    android:host="app"
+42-->/Users/lap12580/Documents/NewDocs/DemoZPDK_Android/DemoZPDK-Android/app/src/main/AndroidManifest.xml:34:21-39
+43                    android:scheme="demozpdk" />
+43-->/Users/lap12580/Documents/NewDocs/DemoZPDK_Android/DemoZPDK-Android/app/src/main/AndroidManifest.xml:33:23-48
+44            </intent-filter>
+45        </activity>
+46    </application>
+47
+48</manifest>

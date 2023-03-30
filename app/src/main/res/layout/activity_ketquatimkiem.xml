@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.user.Ketquatimkiem_Activity"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        >
+        <ImageView
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:src="@drawable/logo"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_10sdp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kết quả tìm kiếm ID"
+            android:gravity="center"
+            android:textSize="@dimen/_16ssp"
+            android:textColor="@color/black"
+            android:textStyle="bold|italic"
+            android:layout_marginBottom="@dimen/_10sdp"
+            />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Kết quả tìm kiếm bằng cách kết hợp giữa"
+        android:gravity="center"
+        android:textSize="@dimen/_14ssp"
+        />
+        <TextView
+            android:textSize="@dimen/_14ssp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Số điện thoại và email của bạn"
+            android:gravity="center"
+            />
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/_10sdp"
+            android:text="Đã tìm thấy 1 kết quả"
+            android:textSize="@dimen/_18ssp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textColor="@color/black"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginVertical="@dimen/_20sdp"
+            android:layout_marginHorizontal="@dimen/_5sdp"
+            >
+        <androidx.cardview.widget.CardView
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_80sdp"
+            app:cardCornerRadius="@dimen/_8sdp"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/email"
+                android:layout_gravity="center"
+                android:id="@+id/ketquatimkiemhinhanh"
+                />
+        </androidx.cardview.widget.CardView>
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:layout_gravity="center"
+              android:layout_marginLeft="@dimen/_10sdp"
+              >
+              <TextView
+                  android:layout_margin="@dimen/_2sdp"
+                  android:textColor="@color/black"
+                  android:id="@+id/ketqua_hoten"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="Họ và tên: Nguyễn xuân Đức"
+                  />
+              <TextView
+                  android:textColor="@color/black"
+                  android:layout_margin="@dimen/_2sdp"
+                  android:id="@+id/ketqua_email"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="Email: ducnxpd04647@fpt.edu.vn"
+                  android:layout_marginLeft="@dimen/_10sdp"
+                  />
+              <TextView
+                  android:layout_margin="@dimen/_2sdp"
+                  android:textColor="@color/black"
+                  android:id="@+id/ketqua_sodienthoai"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="SĐT: 0369 6518 204"
+                  android:layout_marginLeft="@dimen/_10sdp"
+                  />
+
+          </LinearLayout>
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            app:cardCornerRadius="@dimen/_8sdp"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            >
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/ketquatimkiemdangnhap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Đăng nhập "
+                android:inputType="text"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_18ssp"
+                android:background="@color/purple_500"
+                />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="@dimen/_8sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            >
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/ketquatimkiemquenmatkhau"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Quên mật khẩu"
+                android:inputType="text"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_18ssp"
+                android:background="#FF9E80"
+                />
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+    
+</FrameLayout>

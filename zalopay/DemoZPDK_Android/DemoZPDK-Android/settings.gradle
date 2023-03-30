@@ -1,0 +1,3 @@
+include ':zpdk-release-28052021'
+rootProject.name='merchantDemo'
+include ':app'

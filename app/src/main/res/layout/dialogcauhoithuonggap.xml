@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_300sdp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginHorizontal="@dimen/_20sdp"
+    app:cardCornerRadius="8dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/purple_500"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Câu hỏi thường gặp"
+                android:padding="10dp"
+                android:textSize="@dimen/_20sdp"
+                android:textColor="@color/white"
+                android:gravity="center"
+                />
+            <ImageView
+                android:id="@+id/dialog_cauhoithuonggap_thoat"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:src="@drawable/cancel7"
+                android:layout_gravity="center|right"
+                android:layout_marginRight="10dp"
+                />
+        </FrameLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="14dp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1. Làm sao để tìm kiếm sản phẩm?."
+                        android:textSize="@dimen/_14ssp"
+                        android:textColor="@color/black"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingHorizontal="8dp"
+                        android:text=" Người dùng vào màn hình Trang chủ > Nhấp vào thanh tìm kiếm.
+                         \n Nhập tên sản phẩm muốn tìm kiếm.
+                         \n Sản phẩm muốn tìm kiếm sẽ hiện ra phía dưới ô tìm kiếm."
+                        android:textSize="@dimen/_12ssp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="2. Làm sao để thêm vào giỏ hàng?"
+                        android:textSize="@dimen/_14ssp"
+                        android:textColor="@color/black"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingHorizontal="8dp"
+                        android:text=" Chọn sản phẩm muốn thêm > Màn hình sẽ chuyển sang thông tin sản phầm.
+                        \n Chọn só lượng sản phẩm muốn thêm vào giỏ hàng.
+                        \n Chọn 'Thêm Vào Giỏ Hàng' để thêm sản phẩm vào giỏ hàng."
+                        android:textSize="@dimen/_12ssp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="3. Làm sao để mua hàng?"
+                        android:textSize="@dimen/_14ssp"
+                        android:textColor="@color/black"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingHorizontal="8dp"
+                        android:text=" Nhấp vào hình giỏ hàng góc trên bên phải màn hình > Chọn sản phẩm muốn mua từ giỏ hàng.
+                         \n Chọn 'Mua hàng' 
+                         \n Chọn 'Thay đổi thông tin thanh toán' nếu muốn thay đổi thông tin.
+                         \n Chọn phương thức thanh toán.\n Chọn 'Mua hàng'"
+                        android:textSize="@dimen/_12ssp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="4. Làm sao để biết đơn hàng đang ở trạng thái nào?"
+                        android:textSize="@dimen/_14ssp"
+                        android:textColor="@color/black"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingHorizontal="8dp"
+                        android:text=" Vào màn hình 'Đơn mua'\n
+                         Chọn loại trạng thái để kiểm tra đơn hàng còn đang ở loại trạng thái nào."
+                        android:textSize="@dimen/_12ssp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="5. Làm sao để thay đổi hồ sơ?"
+                        android:textSize="@dimen/_14ssp"
+                        android:textColor="@color/black"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingHorizontal="8dp"
+                        android:text=" Vào màn hình 'Cá nhân'\n 
+                        Nhấp vào avatar cá nhân > Chuyển qua màn hình 'Sửa hồ sơ'
+                        \n Chọn thông tin muốn thay đổi và thay đổi
+                        \n Nhấp vào 'Thay đổi' để hoàn thành thao tác"
+                        android:textSize="@dimen/_12ssp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="6. Làm sao để thay đổi mật khẩu"
+                        android:textSize="@dimen/_14ssp"
+                        android:textColor="@color/black"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingHorizontal="8dp"
+                        android:text=" Vào màn hình 'Sửa hồ sơ'\n Chọn 'Thay đổi mật khẩu' \n Nhập mật khẩu cũ, mật khẩu mới và nhập lại mật khẩu mới\n Chọn 'Đổi mật khẩu' để hoàn thành thao tác đổi mật khẩu"
+                        android:textSize="@dimen/_12ssp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="7. Làm sao để đăng xuất"
+                        android:textSize="@dimen/_14ssp"
+                        android:textColor="@color/black"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingHorizontal="8dp"
+                        android:text=" Vào màn hình 'Cá nhân'\n 
+                        Chọn 'Đăng xuất' > Màn hình hiện lên câu hỏi 'Bạn có muốn đăng xuất không' 
+                        \n Chọn 'Đăng xuất' để đăng xuất/ Chọn 'Hủy' để hủy bỏ thao tác "
+                        android:textSize="@dimen/_12ssp"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+

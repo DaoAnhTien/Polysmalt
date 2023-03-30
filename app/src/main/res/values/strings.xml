@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Polysmart</string>
+    <string name="ValidateForm">Không được để trống</string>
+    <string name="AddSusucess">Thêm sản phẩm thành công </string>
+    <string name="UpdateFall">Cập nhật thất bai</string>
+    <string name="UpdateSusucess">Cập nhật thành công</string>
+    <string name="titleVohieuhoa">Mở khóa tài khoản</string>
+    <string name="Noidugnvohieuhoa">Vì một số lý do mà tài khoản quý khách đã bị khóa quý khách vui lòng thực hiện theo các bước sau tài khoản của quý khách có thề hoạt động một cách   bình thường    </string>
+    <string name="Buoc1">Bước 1: Chọn đồng ý tất cả</string>
+    <string name="Buoc2">Bước 2: Nhập lại mật khẩu và số điện thoại</string>
+    <string name="Buoc3">Bước 3: Đăng nhập lại</string>
+    <string name="Loichuc">Chúc mừng bạn đã mở khóa tài khoản \n thành công</string>
+    <string name="cacbuoc">Vui lòng thực hiện theo các bước sau</string>
+    <string name="dongytatca">Đồng ý tất cả</string>
+    <string name="xacnhan">Xác nhận</string>
+    <!--    Đăng xuất-->
+    <string name="thongbaodangxuat">Bạn có muốn đăng xuất không ?</string>
+    <string name="dangxuat">Đăng xuất</string>
+    <string name="huy">Hủy</string>
+    <!--    Vip-->
+    <string name="damua">Đã mua</string>
+    <string name="chuamua">Chưa mua</string>
+    <string name="sodu">Số dư:</string>
+    <string name="sdt">Khách hàng chưa cập nhật số điện thoại</string>
+    <!--Cá nhân-->
+    <string name="title_canhan">Cá nhân</string>
+    <string name="quanly">Quản lý</string>
+    <string name="khachhang">Khách hàng</string>
+    <string name="sanphammoi">Sản phẩm mới</string>
+    <string name="doanhthu">Doanh thu</string>
+    <string name="dieukhoan">Điều khoản</string>
+    <string name="dieukhoandichvu">Điều khoản dịch vụ</string>
+    <string name="chinhsach">Chính sách bảo mật</string>
+    <string name="trungtamkhachhang">Trung tâm khách hàng</string>
+    <string name="lienhevoichungtoi">Liên hệ với chúng tôi</string>
+    <string name="cauhoithuonggap">Câu hỏi thường gặp</string>
+    <!--    sản phẩm-->
+    <string name="Sanpham">Sản Phẩm</string>
+    <string name="sapxeptheo">Sắp xếp theo</string>
+    <string name="moinhat">Mới nhất</string>
+    <string name="cunhat">Củ nhất</string>
+    <string name="gia">Giá</string>
+    <string name="gia1">Giá: Thấp đến cao"</string>
+    <string name="gia2">Giá: Cao đến Thấp"</string>
+    <!--    User-->
+    <string name="Email">Email: </string>
+    <string name="hovaten">Họ và tên: </string>
+
+    <!--   notification_validate  -->
+    <string name="validate_sdt">Bạn chưa cập nhật số điện thoại</string>
+    <string name="validate_thontin_sdt">Số điện thoại: </string>
+
+    <!--    Adapter-->
+    <string name="adapter_name">Tên sản phẩm: </string>
+    <string name="adapter_summonmey">Tổng tiền: </string>
+    <string name="adapter_soluong">Số lượng: </string>
+    <string name="adapter_donhang">Đơn hàng: </string>
+    <string name="adapter_diachigiaohang">Địa chỉ giao hàng: </string>
+    <string name="adapter_tongtiendonhang">Tổng tiền đơn hàng: </string>
+    <string name="adapter_tongtiendonmua">Tổng tiền đơn mua: </string>
+    <!--    Adapter trạng thái đơn hàng-->
+    <string name="adapter_choxacnhan">Chờ xác nhận</string>
+    <string name="adapter_cholayhang">Chờ lấy hàng</string>
+    <string name="adapter_danggiao">Đang giao</string>
+    <string name="adapter_dagiao">Đã giao</string>
+    <string name="adapter_dahuy">Đã hủy</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

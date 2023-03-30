@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/btn_background_canhan"
+    >
+
+ <TextView
+     android:id="@+id/category_name"
+     android:layout_width="match_parent"
+     android:layout_height="@dimen/_43sdp"
+     android:paddingTop="@dimen/_11sdp"
+     android:paddingLeft="@dimen/_20sdp"
+     android:textSize="@dimen/_16ssp"
+     android:textColor="@color/black"
+     android:text="Iphone"
+     />
+
+
+</LinearLayout>

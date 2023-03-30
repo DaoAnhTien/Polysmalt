@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cnb_unselectedColor="@color/black"
+    >
+    <item
+        android:id="@+id/Home_activity"
+        android:title="Trang chủ"
+        android:icon="@drawable/home2"
+        app:cnb_iconColor="@color/white"
+        app:cnb_backgroundColor="@color/black"
+        app:cnb_textColor="@color/white"
+    />
+    <item
+        android:id="@+id/All_product"
+        android:title="@string/Sanpham"
+        android:icon="@drawable/allproduc2"
+        android:enabled="true"
+        app:cnb_iconColor="@color/white"
+        app:cnb_backgroundColor="@color/black"
+        app:cnb_textColor="@color/white"
+        />
+    <item
+        android:id="@+id/DonhangAdmin"
+        android:icon="@drawable/order"
+        android:title="Đơn hàng"
+        android:enabled="true"
+        app:cnb_iconColor="@color/white"
+        app:cnb_backgroundColor="@color/black"
+        app:cnb_textColor="@color/white"
+        />
+    <item
+        android:id="@+id/nguoidung_activity"
+        android:title="Cá nhân"
+        android:icon="@drawable/user2"
+        android:enabled="true"
+        app:cnb_iconColor="@color/white"
+        app:cnb_backgroundColor="@color/black"
+        app:cnb_textColor="@color/white"
+        />
+</menu>

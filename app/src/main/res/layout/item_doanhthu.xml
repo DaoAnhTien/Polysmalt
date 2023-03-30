@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginHorizontal="@dimen/_8sdp"
+    android:layout_marginVertical="@dimen/_2sdp"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+    <TextView
+        android:paddingLeft="@dimen/_5sdp"
+        android:id="@+id/nameDoanhthu"
+        android:textColor="@color/black"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="wrap_content"
+        android:text="ten san pham"/>
+    <TextView
+        android:paddingLeft="@dimen/_5sdp"
+        android:id="@+id/tongDoanhthu"
+        android:textColor="#0000ff"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="wrap_content"
+        android:text="999.999.999.9999"/>
+</LinearLayout>
+
+</androidx.cardview.widget.CardView>

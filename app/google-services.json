@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "120651923763",
+    "project_id": "ungdungpolysmart",
+    "storage_bucket": "ungdungpolysmart.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:120651923763:android:cb1932c7ddba4271b47e46",
+        "android_client_info": {
+          "package_name": "com.example.polysmall"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "120651923763-bqjbud97n3prt3hdoc9va41gh902k0qd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.polysmall",
+            "certificate_hash": "0fce96d6e3c7297194e76c8cf22a1c3405a294d0"
+          }
+        },
+        {
+          "client_id": "120651923763-dss2kdtqkpk6fkso7bfn2ob1vldtl790.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCo-K-SapFuw40w1I2EfV8n-4SaVP8wLVI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "120651923763-dss2kdtqkpk6fkso7bfn2ob1vldtl790.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

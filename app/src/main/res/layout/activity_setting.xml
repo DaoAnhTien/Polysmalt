@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".views.user.Setting_Activity">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="Chỉnh sửa tài khoản"
+            android:id="@+id/toolbar"
+            />
+    </androidx.cardview.widget.CardView>
+    <Button
+        android:id="@+id/btnChinhsuaThongtin"
+        android:layout_margin="@dimen/_5sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_setting"
+        android:text="Chỉnh sửa thông tin"
+        android:gravity="left|center"
+        android:paddingLeft="@dimen/_20sdp"
+        android:inputType="text"
+        android:textSize="@dimen/_14sdp"
+        />
+    <Button
+        android:id="@+id/btnDatlaimatkhau"
+        android:layout_marginHorizontal="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_setting"
+        android:text="Đặt lại mật khẩu"
+        android:gravity="left|center"
+        android:paddingLeft="@dimen/_20sdp"
+        android:inputType="text"
+        android:textSize="@dimen/_14sdp"
+        />
+    <Button
+        android:id="@+id/btnVohieuhoataikhoan"
+        android:layout_marginHorizontal="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_setting"
+        android:text="Vô hiệu hóa tài khoản"
+        android:gravity="left|center"
+        android:paddingLeft="@dimen/_20sdp"
+        android:inputType="text"
+        android:textSize="@dimen/_14sdp"
+        />
+</LinearLayout>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_300sdp"
+    android:layout_marginHorizontal="@dimen/_20sdp"
+    app:cardCornerRadius="8dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/purple_500"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Chính sách bảo mật"
+                android:textSize="@dimen/_20ssp"
+                android:textColor="@color/white"
+                android:gravity="center"
+                />
+            <ImageView
+                android:id="@+id/dialog_chinhsach_thoat"
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:src="@drawable/cancel7"
+                android:layout_gravity="center|right"
+                android:layout_marginRight="10dp"
+                />
+        </FrameLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_10sdp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1. Mục đích và phạm vi thu thập"
+                        android:textSize="@dimen/_16ssp"
+                        android:textColor="@color/black"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingHorizontal="8dp"
+                        android:text=" Để truy cập và sử dụng một số dịch vụ tại PolySmart , bạn có thể sẽ được yêu cầu đăng ký với chúng tôi thông tin cá nhân (Email, Họ tên, Số ĐT liên lạc, địa chỉ giao hàng, địa chỉ email). Mọi thông tin khai báo phải đảm bảo tính chính xác và hợp pháp. PolySmart  không chịu mọi trách nhiệm liên quan đến pháp luật của thông tin khai báo. \n
+Chúng tôi cũng có thể thu thập thông tin về số lần viếng thăm, bao gồm số trang bạn xem, số links (liên kết) bạn click và những thông tin khác liên quan đến việc kết nối đến ứng dụng. Chúng tôi cũng thu thập các thông tin mà ứng dụng bạn sử dụng mỗi khi truy cập vào PolySmart , bao gồm: địa chỉ IP
+"
+                        android:textSize="@dimen/_14ssp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="2. Phạm vi sử dụng thông tin"
+                        android:textSize="@dimen/_16ssp"
+                        android:textColor="@color/black"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingHorizontal="8dp"
+                        android:text=" PolySmart  thu thập và sử dụng thông tin cá nhân bạn với mục đích phù hợp và hoàn toàn tuân thủ nội dung của “Chính sách bảo mật” này.\n
+Cụ thể:\n
+Khi cần thiết, chúng tôi có thể sử dụng những thông tin này vào các mục đích:\n
+- Xử lý đơn hàng: gọi điện, gửi email hoặc tin nhắn xác nhận việc đặt hàng, thông báo về trạng thái đơn hàng và thời gian giao hàng, xác nhận việc huỷ đơn hàng (nếu có).\n
+- Gởi thư ngỏ/thư cảm ơn, giới thiệu sản phẩm mới, dịch vụ mới hoặc các chương trình khuyến mãi của PolySmart .\n
+- Gởi thông tin về bảo hành sản phẩm.\n
+- Giải quyết khiếu nại của khách hàng.\n
+- Thông tin trao thưởng (của PolySmart hoặc của hãng).\n
+- Các khảo sát để chăm sóc khách hàng tốt hơn.\n
+- Xác nhận các thông tin về kỹ thuật và bảo mật thông tin khách hàng.\n
+- Các trường hợp có sự yêu cầu của cơ quan nhà nước có thẩm quyền, theo đúng quy định của pháp luật.
+"
+                        android:textSize="@dimen/_14ssp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="3. Thời gian lưu trữ thông tin"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_16ssp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingHorizontal="8dp"
+                        android:text=" Dữ liệu cá nhân sẽ được lưu trữ cho đến khi có yêu cầu hủy bỏ. Còn lại trong mọi trường hợp thông tin cá nhân sẽ được bảo mật trên máy chủ của PolySmart "
+                        android:textSize="@dimen/_14ssp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="4. Cam kết bảo mật thông tin cá nhân khách hàng"
+                        android:textSize="@dimen/_16ssp"
+                        android:textColor="@color/black"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingHorizontal="8dp"
+                        android:text="- Khách hàng có quyền yêu cầu thay đổi hoặc huỷ bỏ thông tin cá nhân của mình.\n
+- Thông tin cá nhân của khách hàng trên PolySmart  được cam kết bảo mật tuyệt đối theo chính sách bảo vệ thông tin cá nhân của PolySmart . Việc thu thập và sử dụng thông tin của mỗi khách hàng chỉ được thực hiện khi có sự đồng ý trừ những trường hợp pháp luật có quy định khác.\n
+- Chỉ sử dụng thông tin khách hàng vào các nội dung ở mục 2. Không phát tán, cung cấp thông tin khách hàng cho bên thứ 3 trừ trường hợp cung cấp cho công ty tài chính khi khách hàng mua trả góp, cung cấp hãng để trao thưởng hoặc trường hợp khác khi cơ quan nhà nước có thẩm quyền yêu cầu.\n
+- Chúng tôi cam kết  sử dụng các biện pháp quản lý, kỹ thuật phù hợp để bảo vệ thông tin do mình thu thập, lưu trữ; tuân thủ các tiêu chuẩn, quy chuẩn kỹ thuật về bảo đảm an toàn thông tin mạng. Trong trường hợp máy chủ lưu trữ thông tin bị hacker tấn công dẫn đến mất mát dữ liệu cá nhân khách hàng, PolySmart  sẽ có trách nhiệm thông báo vụ việc cho cơ quan chức năng điều tra xử lý kịp thời và thông báo cho khách hàng được biết.
+"
+                        android:textSize="@dimen/_14ssp"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

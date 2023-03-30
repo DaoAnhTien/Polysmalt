@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginHorizontal="@dimen/_10sdp"
+    app:cardCornerRadius="8dp">
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       >
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+
+           >
+           <FrameLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:background="@color/purple_500"
+               >
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Liên hệ với chúng tôi"
+                   android:padding="10dp"
+                   android:textSize="@dimen/_18ssp"
+                   android:textColor="@color/white"
+                   android:gravity="center"
+                   />
+               <ImageView
+                   android:id="@+id/dialog_lienhe_thoat"
+                   android:layout_width="@dimen/_30sdp"
+                   android:layout_height="@dimen/_30sdp"
+                   android:src="@drawable/cancel7"
+                   android:layout_gravity="center|right"
+                   android:layout_marginRight="10dp"
+                   />
+           </FrameLayout>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:padding="@dimen/_2sdp"
+               android:orientation="vertical"
+               >
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="1 Bạn đang gặp khó khăn cần được hỗ trợ ?"
+                   android:textColor="@color/black"
+                   android:textSize="@dimen/_12sdp"
+                   />
+               <TextView
+                   android:layout_marginVertical="@dimen/_5sdp"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Hãy liên hệ với Polysmall qua bộ phận chăm sóc khách hàng.Chúng tôi sẻ giải quyết vấn đề của bạn nhanh nhất có thể !"
+                   android:textSize="@dimen/_12sdp"
+                   />
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:textColor="@color/black"
+                   android:textSize="@dimen/_12sdp"
+                   android:text="2 Bạn không biết cách liên hệ với chúng tôi"
+                   />
+               <TextView
+                   android:layout_marginVertical="@dimen/_5sdp"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Bạn hãy liên hệ với chúng tôi theo những cách sau:"
+                   android:textSize="@dimen/_12sdp"
+                   />
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical"
+                   android:layout_marginLeft="@dimen/_10sdp"
+                   android:layout_marginBottom="@dimen/_10sdp"
+                   >
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Tel:(+84) 39 6518 204"
+                       android:textSize="@dimen/_10sdp"
+                       />
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Email:ducnxpd04647@fpt.edu.vn"
+                       android:textSize="@dimen/_10sdp"
+                       />
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:textSize="@dimen/_10sdp"
+                       android:text="Địa chỉ: 137 Nguyễn thị thập - Thank khê - Đà nẵng"
+                       />
+               </LinearLayout>
+           </LinearLayout>
+
+           </LinearLayout>
+
+   </ScrollView>
+
+
+</androidx.cardview.widget.CardView>
